@@ -15,7 +15,7 @@ import PaymentCheckout from "./pages/PaymentCheckout";
 import PaymentReturn from "./pages/PaymentReturn";
 import PaymentCancel from "./pages/PaymentCancel";
 import ReserverTable from "./pages/ReserveTable";
-import About from "./pages/about";
+import About from "./pages/About";
 import Special from "./pages/special";
 import Layout from "./components/Layout";
 import DashboardLayout from "./components/dashboard/DashboardLayout";
