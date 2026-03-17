@@ -13,7 +13,7 @@ const MenuBanner = ({
   backgroundImage = "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop",
 }: MenuBannerProps) => {
   return (
-    <div className="relative h-[20vh] min-h-[500px] w-full overflow-hidden  shadow-3xl">
+    <div className="relative h-[20vh] min-h-125 w-full overflow-hidden  shadow-3xl">
       {/* Background Image with Parallax-like Zoom */}
       <motion.div
         initial={{ scale: 1.1 }}
@@ -26,7 +26,7 @@ const MenuBanner = ({
           style={{ backgroundImage: `url(${backgroundImage})` }}
         />
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/50 to-transparent" />
       </motion.div>
 
       {/* Content Container */}
